@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,14 @@
     <title>Semana 8</title>
     <!-- Link de css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- link de AOS LIBRERIA -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS DE ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+
 <body>
-    
+
     <header>
         <img src="img/logo-coder01.png" alt="logo coder">
         <h1>Desarrollo Web Flex</h1>
@@ -17,11 +23,11 @@
 
     <main>
         <section>
-            <h2>Gradiente</h2>
-            
-            <div class="gradient-lineal"></div>
-            <div class="gradient-lineal-02"></div>
-            <div class="gradient-radial"></div>
+            <h2 class="animate__animated animate__tada">Gradiente</h2>
+
+            <div class="gradient-lineal" data-aos="flip-left"></div>
+            <div class="gradient-lineal-02" data-aos="flip-left"></div>
+            <div class="gradient-radial" data-aos="flip-left"></div>
         </section>
 
         <section>
@@ -31,16 +37,26 @@
         </section>
 
         <section class="transform">
-            <h4>Transform</h4>
+            <h4 class="animate__animated animate__bounceInLeft">Transform</h4>
             <div class="caja-translate"></div>
             <div class="caja-rotate"></div>
             <div class="caja-scale"></div>
-            <div class="caja-skew"></div>
+            <div class="caja-skew animate__animated animate__tada" data-aos="fade-right"></div>
             <!-- Animacion real -->
             <img src="img/icons8-whatsapp-96.png" alt="imagen whatsapp" class="icono-wpp">
         </section>
-
-        
     </main>
+
+    <footer>
+        <p>Este es el hermoso footer</p>
+    </footer>
+
+
+    <!-- SCRIPT AOS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
