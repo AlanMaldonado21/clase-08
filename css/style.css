@@ -1,0 +1,84 @@
+header {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding: 15px;
+  justify-content: space-between;
+  background: #210818;
+  background: linear-gradient(292deg, rgba(33, 8, 24, 0.9444152661) 0%, #8400ff 97%);
+}
+header img {
+  width: 10rem;
+}
+header h1 {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+
+main section h2 {
+  margin-top: 3rem;
+  color: yellow;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+main section .gradient-lineal {
+  width: 150px;
+  height: 50px;
+  background-image: linear-gradient(to right, blue, yellow);
+}
+main section .gradient-lineal-02 {
+  width: 150px;
+  height: 50px;
+  background-image: linear-gradient(to right, violet, white, yellow, blue);
+}
+main section .gradient-radial {
+  width: 250px;
+  height: 155px;
+  background-image: radial-gradient(circle, white, red);
+}
+main section h3 {
+  margin-top: 3rem;
+  color: yellow;
+  font-size: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+main section .ejemplo-boton1 {
+  display: block;
+  margin-top: 2rem;
+  background-image: linear-gradient(to left, #D3E61D, #E5F083);
+  width: 150px;
+  padding: 15px;
+  margin-left: 4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 5px;
+}
+main section .ejemplo-boton2 {
+  display: block;
+  margin-top: 2rem;
+  background-image: linear-gradient(to left, #10151A, #505253);
+  width: 150px;
+  padding: 15px;
+  margin-left: 4rem;
+  text-align: center;
+  text-decoration: none;
+  color: yellow;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1F2023;
+}
+
+/*# sourceMappingURL=style.css.map */
